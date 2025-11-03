@@ -205,3 +205,35 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ==============================================================================
+# PROJECT-SPECIFIC: Multi-Agent Document Classification
+# ==============================================================================
+
+# Model cache and results
+model_cache/
+results/
+*.pkl
+*.joblib
+
+# Trained model files
+*.pth
+*.pt
+*.bin
+*.safetensors
+
+# Data files (if downloaded/cached locally)
+data/
+datasets/
+
+# Gradio temporary files
+gradio_cached_examples/
+flagged/
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
