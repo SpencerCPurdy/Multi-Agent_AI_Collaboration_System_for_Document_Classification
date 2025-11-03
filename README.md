@@ -88,7 +88,7 @@ Performance on held-out test set (3,770 documents):
 ### Running in Google Colab
 
 1. Clone this repository or download the notebook file
-2. Upload `multi_agent_ai_collaboration_system_for_document_classification.ipynb` to Google Colab
+2. Upload `Multi-Agent AI Collaboration System for Document Classification.ipynb` to Google Colab
 3. Select Runtime > Change runtime type > A100 GPU (or T4 GPU for free tier)
 4. Run all cells sequentially
 
@@ -104,14 +104,14 @@ The notebook will automatically:
 
 ```bash
 # Clone the repository
-git clone https://github.com/SpencerCPurdy/multi-agent-document-classification.git
-cd multi-agent-document-classification
+git clone https://github.com/SpencerCPurdy/Multi-Agent_AI_Collaboration_System_for_Document_Classification.git
+cd Multi-Agent_AI_Collaboration_System_for_Document_Classification
 
 # Install dependencies
 pip install scikit-learn==1.3.0 numpy==1.24.3 pandas==2.0.3 torch==2.1.0 transformers==4.35.0 gradio==4.7.1 sentence-transformers==2.2.2 imbalanced-learn==0.11.0 xgboost==2.0.1 plotly==5.18.0 seaborn==0.13.0 nltk==3.8.1
 
 # Run the notebook
-jupyter notebook multi_agent_ai_collaboration_system_for_document_classification.ipynb
+jupyter notebook "Multi-Agent AI Collaboration System for Document Classification.ipynb"
 ```
 
 **Note:** Training takes approximately 10-15 minutes depending on hardware.
@@ -119,7 +119,7 @@ jupyter notebook multi_agent_ai_collaboration_system_for_document_classification
 ## Project Structure
 
 ```
-├── multi_agent_ai_collaboration_system_for_document_classification.ipynb
+├── Multi-Agent AI Collaboration System for Document Classification.ipynb
 ├── README.md
 ├── LICENSE
 └── .gitignore
